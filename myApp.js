@@ -10,7 +10,7 @@ app.get('/',
 );
 
 
-
+app.use('/public', express.static(__dirname+'/public'));
 
 
 
